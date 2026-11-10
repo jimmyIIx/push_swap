@@ -1,0 +1,29 @@
+# PUSH_SWAP
+
+Programme C qui trie une pile d'entiers en utilisant un ensemble limité d'opérations. Trouve la séquence optimale de mouvements pour trier les données avec le minimum d'opérations.
+
+## Opérations disponibles
+- **sa / sb / ss** - Swap (permute les deux premiers éléments)
+  - sa : swap pile a
+  - sb : swap pile b
+  - ss : swap les deux piles simultanément
+- **pa / pb** - Push (déplace le premier élément d'une pile à l'autre)
+  - pa : push de b vers a
+  - pb : push de a vers b
+- **ra / rb / rr** - Rotate (décale tous les éléments vers le haut)
+  - ra : rotation pile a
+  - rb : rotation pile b
+  - rr : rotation des deux piles
+- **rra / rrb / rrr** - Reverse Rotate (décale tous les éléments vers le bas)
+  - rra : reverse rotation pile a
+  - rrb : reverse rotation pile b
+  - rrr : reverse rotation des deux piles
+
+## Objectif
+Trier les nombres de la pile a en ordre croissant avec le minimum d'opérations possibles.
+
+## Algorithme utilisé
+Stratégies d'optimisation pour minimiser le nombre de mouvements selon la taille de la liste.
+
+## Affichage
+Le programme affiche la séquence d'opérations nécessaire pour trier la liste d'entiers fournie en argument.
